@@ -41,7 +41,7 @@ body {
     flex-grow: 1;
   }
 
-  .login-form {
+  .login {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ body {
     padding: 70px;
   }
 
-  .login-form form {
+  .login form {
     width: 100%;
     max-width: 300px;
     padding: 20px;
@@ -58,12 +58,12 @@ body {
   }
 
 
-  .login-form .form-group {
+  .login .group {
     margin-bottom: 10px;
   }
 
 
-  .login-form .form-group input {
+  .login .group input {
     width: 100%;
     padding: 17px;
     font-size: 11pt;
@@ -72,7 +72,7 @@ body {
     border-color: #d9563f;
   }
 
-  .login-form button {
+  .login button {
     width: 30%;
     padding: 10px;
     background-color: white;
@@ -83,19 +83,19 @@ body {
 
   }
 
-  .login-form button:hover {
+  .login button:hover {
     background-color: #d9563f;
     color: white;
   }
 
-  .login-image {
+  .login-img {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .login-image img {
+  .login-img img {
     width: 40%;
     height: auto;
   }
@@ -109,11 +109,7 @@ body {
     nav a{
       font-size: 15pt;
     }
-    .login-form{
+    .login{
       padding: 10px;
-    }
-    .login-image img{
-      width: 50%;
-      margin-bottom: 10px;
     }
   }
